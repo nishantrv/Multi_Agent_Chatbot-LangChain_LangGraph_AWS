@@ -20,7 +20,7 @@ pipeline {
                         extensions: [[$class: 'CleanBeforeCheckout']],  // ✅ wipes workspace before clone
                         userRemoteConfigs: [[
                             credentialsId: 'github-mulit-agent-token',
-                            url: 'https://github.com/nishantrv/Multi_Agent_Chatbot-LangChain_LangGraph_AWSECR_FARGATE_JENKINS_TAVILYSEARCH'  // ✅ dash removed
+                            url: 'https://github.com/nishantrv/Multi_Agent_Chatbot-LangChain_LangGraph_AWSECR_FARGATE_JENKINS_TAVILYSEARCH-' 
                         ]]
                     )
                 }
